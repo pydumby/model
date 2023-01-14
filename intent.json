@@ -1,0 +1,26 @@
+{
+    "value": {
+        "query": {
+            "creationTime": 1349724919000,
+            "queryURL": "http://waterservices.usgs.gov/nwis/iv/",
+            "criteria": {
+                "locationParam": "[ALL:103232434]",
+                "variableParam": "[00060, 00065]"
+            },
+            "note": [
+                {
+                    "value": "[ALL:103232434]",
+                    "title": "filter:sites"
+                },
+                {
+                    "value": "[mode=LATEST, modifiedSince=null]",
+                    "title": "filter:timeRange"
+                },
+                {
+                    "value": "sdas01",
+                    "title": "server"
+                }
+            ]
+        }
+    }
+}
